@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{ /* cabecera*/
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+nav{/*barra de navegacion*/
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.contenedor {/*borde de formulario*/
+    border: solid;
+    border-color: rgb(236, 143, 3);
+    width: 215px;
+    border-radius: 10px;
+}
+section{
+    background-color:beige;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+td{
+    font-family: cursive;
+}
+td{
+    font-size:x-large;
+}
+.lista{ 
+    text-decoration: none; 
+}
+li{
+    list-style: none;
+}
+footer {
+    height: 40px; /* pie de pagina*/
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    color: brown;
+}
